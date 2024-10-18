@@ -112,12 +112,24 @@ summary {
 }
 
 aside {
-    background-color: rgb(46, 46, 46);
     width: 15%;
     height: 100%;
-    overflow: visible;
+    overflow: hidden;
+    text-align: center;
+    position:fixed;
+    background-color:transparent;
+    top: 6%;
 }
 
 .answersFAQ p {
 color: lime;
+}
+
+.linkAside li {
+    text-decoration: none;
+    list-style-type: none;
+    color: lime;
+    font-size: 20px;
+    line-height: 2.5;
+    text-align: center;
 }

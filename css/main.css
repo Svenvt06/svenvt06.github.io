@@ -117,3 +117,7 @@ aside {
     height: 100%;
     overflow: visible;
 }
+
+.answersFAQ p {
+color: lime;
+}
